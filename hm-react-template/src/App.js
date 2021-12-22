@@ -6,6 +6,7 @@ import "./App.css";
 import store from "./redux/root";
 import CreateNote from "./components/CreateNote";
 
+
 function App() {
   return (
     <Provider store={store}>
